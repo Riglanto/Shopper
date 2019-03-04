@@ -1,0 +1,85 @@
+.bottom-bar {
+    margin: 10px;
+}
+
+.content {
+    height: calc(100vh - 140px);
+    overflow-y: auto;
+}
+
+.loader {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trolley-dialog {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trolley-dialog-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cards > div {
+    margin: 5px;
+}
+
+.cards img {
+    cursor: help;
+}
+
+.products-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.favourites-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+li {
+    color: red;
+}
+
+.failed {
+    max-height: 300px;
+    overflow-x: auto;
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover path {
+    fill: red;
+}
